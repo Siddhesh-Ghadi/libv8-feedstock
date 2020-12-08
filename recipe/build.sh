@@ -79,7 +79,7 @@ elif [[ "${target_platform}" =~ linux.* ]]; then
 fi
 
 if [[ "${target_platform}" == "linux-ppc64le" ]]; then
-  ninja -C out.gn v8 -j 4
+  ninja -C out.gn v8
 else
   ninja -C out.gn v8
 fi
